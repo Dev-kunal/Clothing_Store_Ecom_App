@@ -10,7 +10,12 @@ function MenuItem(props) {
         className="menu-item"
         style={{ backgroundImage: `url(${props.item.imgurl})` }}
       >
-        <div className="content" onClick={()=>{props.history.push(`${props.match.url}${props.item.linkUrl}`)}}>
+        <div
+          className="content"
+          onClick={() => {
+            props.history.push(`${props.match.url}${props.item.linkUrl}`);
+          }}
+        >
           <h4 className="title">{props.item.title.toUpperCase()}</h4>
           <button
             type="button"
