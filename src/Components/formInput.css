@@ -1,0 +1,77 @@
+.label {
+  margin: 10px;
+  position: relative;
+}
+
+.form-input {
+  background: none;
+  background-color: white;
+  color: rgba(3, 3, 3, 0.753);
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid grey;
+}
+.form-input:focus {
+  outline: none;
+}
+
+.form-input:focus ~ .form-input-label {
+  top: -14px;
+  font-size: 12px;
+  color: black;
+}
+.custom-btn {
+  margin: 2vw 9px;
+  min-width: 10vw;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.google-sign-in{
+  margin: 2vw 9px;
+  min-width: 10vw;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #4285f4;
+  color: white;
+}
+.google-sign-in:hover{
+  background-color: white;
+  color: #007bff;
+  border: 1px solid#007bff;
+}
+.custom-btn:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+@media only screen and (max-width: 450px) {
+  .form-input {  
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+  }
+  .form{
+    margin:10vw auto;
+  }
+}

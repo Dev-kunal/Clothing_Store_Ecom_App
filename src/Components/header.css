@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5vw;
+}
+.brandname {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+}
+
+.option {
+  cursor: pointer;
+  margin: 1vw;
+  font-weight: bold;
+  font-size: smaller;
+  width: 40px;
+}
+.option:hover {
+  color: #007bff;
+}
+.logo-container {
+  margin-left: 6vw;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 770px) {
+  .option {
+    font-size: x-small;
+  }
+}

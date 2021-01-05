@@ -1,9 +1,10 @@
 import React from "react";
 import "../App.css";
 import { withRouter } from "react-router-dom";
+import CustomButton from "./CustomButton";
 
 function MenuItem(props) {
-  console.log(props);
+  
   return (
     <div>
       <div
